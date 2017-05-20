@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>Main menu</ion-title>
+
+
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>You are now logged in.</h3>
+  <div padding class="log-in-txt" >
+    <button ion-button class = "other-btn" color="primary" (click)="openProfilePage()">Profile</button>
+  </div>
+  <div padding class="log-in-txt" >
+    <button ion-button class = "other-btn" color="primary" (click)="openSearchPage()">Search!</button>
+  </div>
+    <div padding class="log-in-txt" >
+      <button ion-button class = "other-btn" color="secondary" (click)="openMatchedPage()">Go to matched list</button>
+    </div>
+    <div padding class="log-in-txt" >
+      <button ion-button class="log-out-txt" (click)="logout()" >Logout</button>
+    </div>
+
+
+</ion-content>
